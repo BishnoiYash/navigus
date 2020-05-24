@@ -8,7 +8,7 @@ $port="5432";
 $cont=mysqli_connect($host,$user,$password,$dbbase);
 if(isset($cont))
 {
-
+	echo "connected";
 }
 else
 {
